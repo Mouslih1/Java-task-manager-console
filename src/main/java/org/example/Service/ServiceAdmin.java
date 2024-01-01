@@ -53,6 +53,7 @@ public class ServiceAdmin {
                 System.out.println(PURPLE + "You want add new task y/n");
                 String b = scanner.next();
                 while (b.equals("y")) {
+
                     taskController.add();
                     System.out.println("\n");
                     System.out.println(PURPLE + "You want add new task y/n");
